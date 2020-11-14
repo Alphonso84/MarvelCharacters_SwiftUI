@@ -11,6 +11,11 @@
 		D0DB26FE2560387200504E68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DB26FD2560387200504E68 /* ContentView.swift */; };
 		D0DB27002560387200504E68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0DB26FF2560387200504E68 /* Assets.xcassets */; };
 		D0DB27032560387200504E68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0DB27022560387200504E68 /* Preview Assets.xcassets */; };
+		D0DB2711256047E800504E68 /* HeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DB2710256047E800504E68 /* HeroView.swift */; };
+		D0DB27152560484200504E68 /* BackGroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DB27142560484200504E68 /* BackGroundView.swift */; };
+		D0DB271A25604BB700504E68 /* HeroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DB271925604BB700504E68 /* HeroModel.swift */; };
+		D0DB271E25604E6600504E68 /* HeroDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DB271D25604E6600504E68 /* HeroDetailView.swift */; };
+		D0DB272125604FA800504E68 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DB272025604FA800504E68 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		D0DB26FF2560387200504E68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0DB27022560387200504E68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D0DB27042560387200504E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0DB2710256047E800504E68 /* HeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroView.swift; sourceTree = "<group>"; };
+		D0DB27142560484200504E68 /* BackGroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackGroundView.swift; sourceTree = "<group>"; };
+		D0DB271925604BB700504E68 /* HeroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroModel.swift; sourceTree = "<group>"; };
+		D0DB271D25604E6600504E68 /* HeroDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailView.swift; sourceTree = "<group>"; };
+		D0DB272025604FA800504E68 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,11 @@
 			children = (
 				D0DB26FB2560387200504E68 /* MarvelCharacters_SwiftUIApp.swift */,
 				D0DB26FD2560387200504E68 /* ContentView.swift */,
+				D0DB2710256047E800504E68 /* HeroView.swift */,
+				D0DB271D25604E6600504E68 /* HeroDetailView.swift */,
+				D0DB27142560484200504E68 /* BackGroundView.swift */,
+				D0DB271925604BB700504E68 /* HeroModel.swift */,
+				D0DB272025604FA800504E68 /* ViewModel.swift */,
 				D0DB26FF2560387200504E68 /* Assets.xcassets */,
 				D0DB27042560387200504E68 /* Info.plist */,
 				D0DB27012560387200504E68 /* Preview Content */,
@@ -140,6 +155,11 @@
 			files = (
 				D0DB26FE2560387200504E68 /* ContentView.swift in Sources */,
 				D0DB26FC2560387200504E68 /* MarvelCharacters_SwiftUIApp.swift in Sources */,
+				D0DB27152560484200504E68 /* BackGroundView.swift in Sources */,
+				D0DB2711256047E800504E68 /* HeroView.swift in Sources */,
+				D0DB271A25604BB700504E68 /* HeroModel.swift in Sources */,
+				D0DB271E25604E6600504E68 /* HeroDetailView.swift in Sources */,
+				D0DB272125604FA800504E68 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
